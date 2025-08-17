@@ -81,7 +81,7 @@ def main():
         prob, shap_values = predict(model, features)
 
         st.write("input", features)
-        threshold_opt = 0.1396685168147087
+        threshold_opt = 0.1461
 
         st.subheader("Prediction Result")
         if prob > threshold_opt:
@@ -115,3 +115,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
